@@ -1,49 +1,71 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Kyle Pavelka's Bio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <h1>Kyler Pavelka</h1>
+  <header>
+    <h1>Kyle's Bio</h1>
+  </header>
 
-  <img src="https://placehold.it/200x200" alt="Kyle Pavelka">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <img id="bio-image" 
+        src="/assets/images/me.jpg">
+      </section>
+      <p>Hello! Thank-you for reading my Bio. I love coding and data science. I have been learning python for 2 years and am currently half way through a data science 
+        bootcamp with Rutgers University. I prefer they/them pronouns. I hope to first do some great work in the world of data science and then eventually make great changes in the world. 
+      </p>
+    </section>
 
-  <p>Write a short paragraph about yourself or some placeholder text.</p>
-  <p>A second short paragraph about yourself or some placeholder text.</p>
-
-  <ul>
-    <li><strong>Email:</strong> <a href="#">kylepavelka1@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">Loki-codes</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
+    <aside id="contact-info">
+      <h2>To reach me</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">kylepavelka1@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">Loki-codes</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">available on Github</a></li>
+      </ul>
+    </aside>
+  </main>
+  <h2 id='extra'>Some Random Things I like</h2>
+<hr>
+  <table tr:hover {background-color: #f5f5f5;}>
+    <tr id="blue" class="back-black">
+      <th><strong>Books</strong></th>
+      <th><strong>Movies</strong></th>
+      <th><strong>Games</strong></th>
+      <th><strong>Activities</strong></th>
     </tr>
+
     <tr>
-      <td>Stranger In A Strange Land</td>
+      <td>Stranger in a Strange Land</td>
       <td>Cloud Atlas</td>
-      <td>Skyrim</td>
+      <td>Dragon Age: Inquisition</td>
+      <td>Motorcycling</td>
     </tr>
+
     <tr>
-      <td>The Courage To Be Disliked</td>
+      <td>The Courage to Be Disliked</td>
       <td>Pan's Labrynth</td>
       <td>What Remains of Edith Finch</td>
+      <td>Hiking</td>
     </tr>
+
     <tr>
       <td>Ishmael</td>
       <td>Brother Bear</td>
-      <td>Dragon Age: Inquisition</td>
+      <td>Skyrim</td>
+      <td>Remodeling</td>
     </tr>
   </table>
-
-  <!-- Bonus link to last class page -->
-
 </body>
 
 </html>
